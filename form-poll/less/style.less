@@ -1,0 +1,231 @@
+/*Fonts family*/
+
+
+/* Colors */
+@bg-color: darken(#f8f8f8, 2%);
+@header-bg: #ebb258;
+@light: #ffffff;
+@btn-color: #d6a81e;
+@gray: #aaaaa8;
+
+/*Basic settings*/
+html {
+	font-style: 10px;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: @bg-color;
+	h5 {
+			font-size: 1.8rem;
+		}
+		span {
+			font-size: 1.2rem;
+		}
+}
+
+.container {
+/*	background-color: @light;*/
+}
+
+.row {
+	padding-top: none;
+	&-header {
+		background-color: @header-bg;
+		padding: 4rem;
+	}
+	&-content {
+		background-color: @light;
+		padding: 2rem 3rem 0rem 3rem;
+	}
+}
+
+/*Typography*/
+
+.cont {
+	/*max-width: 45rem;*/
+>pr5rem {
+
+}
+
+}
+
+.main {
+	
+}
+
+.main-header {
+	background-color: @header-bg;
+	h2 {
+		margin: 0px 0px;
+		text-align: center;
+		color: @light;
+		font-size: 2.5rem;
+		display: inline-block;
+		
+	}
+}
+
+.main-content {
+	display: inline-block;
+	background-color: @light;
+	span {
+		padding-bottom: 3rem;
+		display: block;
+	}
+	p {
+		text-align: left;
+	}
+}
+
+.row-min-width {
+	min-width: 51rem;
+}
+
+.event {
+	 text-align: center; 
+	
+}
+
+.poll {
+		text-align: left;
+		background-color: @light;
+		display: inline-block;
+		strong {
+			color: red;
+		}
+		img {
+/*			display: inline-block;
+			margin-left: 5rem;*/
+		}
+		&-event {
+			padding-top: none;
+			min-width: 40rem;
+			p {
+				display: inline-block;
+				padding: 0 1.5rem 0 1.5rem;
+				font-size: 1.3rem;
+
+				
+			}
+			input {
+				display: inline-block;
+				min-width: 1.5rem;
+				max-height: 1rem;
+			}
+			&-number {
+				display: inline-block;
+				padding-left: 2.7rem;
+				padding-bottom: none;
+				p {
+					display: inline-block;
+					font-size: 1.6rem;	
+					min-width: 1.5rem;
+					margin-bottom: 0px;
+				}
+			}
+		}
+
+		&-radio {
+			display: inline-block;
+			&-number {
+				padding-left: 17rem;
+				min-width: 10rem;
+				p {
+					display: inline-block;
+					min-width: 5rem;
+				}
+				
+			}
+			input {
+				min-width: 5rem;
+			}
+			&-span {
+				font-size: 1.5rem;
+				display: inline-block;
+				min-width: 14.5rem;
+				display: inline-block;
+			}
+
+			&-aspects {
+
+			}
+			&-programm{
+
+			}
+			&-leading {
+
+			}
+
+		}
+
+}
+
+.poll-question-div {
+	display: block;
+	text-align: center;
+									
+}
+
+
+.poll-question-img-div {
+	display: inline-block;
+	padding-left: 8rem;
+					
+}
+
+/*.submit-btn {
+	display: block;
+	text-align: center;
+	background-color: @btn-color; 
+}*/
+.submit-popup {
+	text-align: center;
+	padding-bottom: 1rem;
+}
+.submit-button {
+	display: inline-block;
+	text-align: center;
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	background-color: @btn-color;
+	color: @light;
+	border: none;
+	font-size: 1.2rem;
+	&:hover {
+		cursor: pointer;
+		background-color: darken(@btn-color, 10%);
+	}
+}
+
+.unsubscribe {
+	min-width: 48rem;
+	text-align: center;
+	background-color: @bg-color;
+	&-link {
+		color: @gray;
+		&:hover {
+			color: darken(@gray, 20%);
+		}
+	}
+}
+
+.text-input {
+	border: none;
+	border-bottom: 1px solid @gray;
+	outline-color: @btn-color;
+	&:focus {
+		border:none;
+		box-shadow: none;
+	}
+	min-width: 25rem;
+}
+
+
+/*Медиа-запросы*/
+
+@media (max-width: 540px) {
+	.unsubscribe {
+	/*	min-width: 50rem;*/
+	}
+}
