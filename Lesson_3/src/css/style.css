@@ -1,0 +1,70 @@
+.containet{
+	color: #333;
+}
+
+.header {
+	margin : 50px 0px 80px 0px; 
+	text-align: center;
+}
+
+.header h1{
+	font-weight: 900;
+	font-size: 24px;
+}
+.header span{
+	font-weight: 400;
+}
+
+.input-box {
+	margin-left: 30px;
+	border: 5px solid #472cc3;
+}
+
+.input-box p {
+	text-align: center;
+	margin: 35px 0px 40px 0px; 
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.main input {
+	margin: 10px 0px;
+	height: 43px;
+}
+
+.but {
+	height: 60px;
+	margin-bottom: 25px;
+	font-style: 18px;
+}
+
+.instraction {
+	margin: 150px 0px 100px 0px;
+}
+
+h2 {
+	font-weight: 900;
+	font-style: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.instraction .box-pr {
+	text-align: center;
+}
+
+.instraction .box-pr p{
+ font-weight: 500;
+ font-size: 16px;
+}
+
+img {
+	margin: 35px 25px;
+}
+
+.instraction button {
+	margin-top: 80px;
+}
+
+
